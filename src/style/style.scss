@@ -190,6 +190,12 @@ nav {
 }
 
 @media only screen and (max-width: 1020px) {
+  .intro {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
   nav {
     li,
     #aboutBtn {
@@ -212,7 +218,7 @@ nav {
       grid-gap: 10px;
     }
     .seemore {
-      width: 120%;
+      width: 100%;
       font-size: 12px;
       margin: 50px 0;
       border-radius: 0;
@@ -226,7 +232,7 @@ nav {
     width: 100%;
   }
   .order {
-    width: 125%;
+    width: 100%;
   }
   .footer {
     padding: 5px;

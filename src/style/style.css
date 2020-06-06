@@ -253,6 +253,10 @@ nav li:hover a {
 }
 
 @media only screen and (max-width: 1020px) {
+  .intro img {
+    width: 300px;
+    height: 300px;
+  }
   nav li,
   nav #aboutBtn {
     padding: 15px;
@@ -283,7 +287,7 @@ nav li:hover a {
     grid-gap: 10px;
   }
   .products .seemore {
-    width: 120%;
+    width: 100%;
     font-size: 12px;
     margin: 50px 0;
     border-radius: 0;
@@ -296,7 +300,7 @@ nav li:hover a {
     width: 100%;
   }
   .order {
-    width: 125%;
+    width: 100%;
   }
   .footer {
     padding: 5px;
